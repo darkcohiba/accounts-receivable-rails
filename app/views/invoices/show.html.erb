@@ -95,6 +95,9 @@
 </div>
 
 <div class="py-4">
+
+  <%# yen button is here and create to yen helper for invoices. need to conect this button to the total and have the total change based on the button %>
+  <%= link_to 'Convert to Yen', edit_invoice_path(@invoice), class: btn_css %> |
   <%= link_to 'Edit', edit_invoice_path(@invoice), class: btn_css %> |
   <%= link_to 'Back', invoices_path, class: btn_css %>
 </div>
